@@ -1,0 +1,16 @@
+{
+  "name": "terra-sense-client",
+  "description": "",
+  "main": "client/index.html",
+  "license": "ISC",
+  "homepage": "https://github.com/mr-max/terra-sense",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "material-design-lite": "^1.1.1",
+    "Chart.js": "chartjs#^1.0.2",
+    "fetch": "^0.11.0",
+    "es6-promise": "^3.0.2",
+    "lodash": "^4.3.0"
+  }
+}

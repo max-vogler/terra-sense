@@ -1,0 +1,15 @@
+---
+declared-services:
+  example-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Shared
+applications:
+- path: .
+  command: node .
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: example
+  host: example
+  services:
+  - example-cloudantNoSQLDB
